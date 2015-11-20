@@ -1,14 +1,14 @@
 {
-  "name": "one-dark-syntax",
+  "name": "purple-haze-syntax",
   "theme": "syntax",
   "version": "1.1.1",
-  "description": "A dark syntax theme",
+  "description": "A Hazy syntax theme",
   "keywords": [
     "dark",
-    "blue",
+    "purple",
     "syntax"
   ],
-  "repository": "https://github.com/atom/one-dark-syntax",
+  "repository": "https://github.com/acatl/purple-haze-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
