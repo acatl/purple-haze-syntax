@@ -3,6 +3,10 @@
 .comment {
   color: @mono-3;
   font-style: italic;
+
+  .storage {
+    color: @mono-2;
+	}
 }
 
 .entity {
@@ -80,6 +84,10 @@
 
 .variable {
   color: @hue-5;
+
+  &.property {
+    color: @hue-5-3;
+  }
 
   &.interpolation {
     color: @hue-5-2;
@@ -297,4 +305,49 @@
   &.raw {
     color: @hue-4;
   }
+}
+
+.variable.parameter {
+  color: @hue-6;
+}
+
+.meta.delimiter.method.period {
+  font-weight: bold;
+  color: @hue-1;
+}
+
+.meta.delimiter.object.comma {
+  font-weight: bold;
+  color: @hue-1;
+}
+
+.meta.brace.square {
+  font-weight: bold;
+  color: @hue-1;
+}
+
+.meta.brace.curly {
+  font-weight: bold;
+  color: @hue-3;
+}
+
+.punctuation.terminator {
+  font-weight: bold;
+  color: @hue-4;
+}
+
+.keyword.operator {
+  color: @hue-3;
+}
+
+.keyword.control {
+  color: @hue-6-2;
+}
+
+.punctuation.definition.arguments.begin,
+.punctuation.definition.arguments.end,
+.punctuation.definition.parameters.begin,
+.punctuation.definition.parameters.end,
+.meta.brace.round {
+  color: @hue-6-2;
 }
